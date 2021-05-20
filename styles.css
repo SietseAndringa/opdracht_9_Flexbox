@@ -1,0 +1,51 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(199, 191, 230);
+}
+.center-header {
+    margin: 0 auto;
+    width: 300px;
+}
+.orange-border {
+    border-style: solid;
+    border-color: orange;
+    border-radius: 15px;
+    border-width: 5px;
+    margin: 25px 10px;
+    padding: 10px 20px;
+}
+ul.click {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;   
+}
+li.menu {
+    display: inline;
+    background-color: dimgray;
+    margin: 10px;
+    padding: 10px;
+}
+
+a { 
+    color: white;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.blogpost {
+    width: 150px; border: black 2px solid;
+    text-align: center; 
+}
+
+@media (min-width: 1024px) {
+    body  {
+        background-color: lightgoldenrodyellow;
+        color: darkorchid;
+        font-size: 80%;
+        line-height: 200%;
+    }
+}

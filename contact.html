@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> Contact </title>
+</head>
+
+<body>
+    <header class="center-header">
+        <h1>Sietse's Website</h1>
+    </header>
+    <nav class="orange-border">
+        <ul class="click">
+            <li class="menu"><a href="index.html">Home</a></li>
+            <li class="menu"><a href="about.html">Over mij</a></li>
+            <li class="menu"><a href="https://www.autoweek.nl/auto/41960/bmw-z4-coupe-30si/" target="_blank">Mijn
+                    auto</a></li>
+            <li class="menu"><a href="blog.html">Blog</a></li>
+            <li class="menu"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="orange-border">
+        <h2>Contact</h2>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label> Naam: </label><br>
+                <input type="text" name="name" /><br>
+                <label> E-mail adres: </label><br>
+                <input type="email" name="email" /><br>
+                <label> Telefoonnummer: </label><br>
+                <input type="tel" name="phone" /><br>
+                <label> Leeftijd: </label><br>
+                <input type="number" name="age" /><br>
+                <label> Geboortedatum: </label><br>
+                <input type="date" name="birth" /><br>
+            </p>
+            <p>
+                <label> Geslacht: </label><br>
+                <input type="radio" name="gender" value="male" />
+                <label>Man</label><br>
+                <input type="radio" name="gender" value="female" />
+                <label>Vrouw</label><br>
+                <input type="radio" name="gender" value="other" />
+                <label>Anders</label><br>
+            </p>
+            <p>
+                <label> Favoriete cuisine: </label><br>
+                <input type="checkbox" name="french" value="french" />
+                <label>Frans</label><br>
+                <input type="checkbox" name="italian" value="italian" />
+                <label>Italiaans</label><br>
+                <input type="checkbox" name="spanish" value="spanish" />
+                <label>Spaans</label><br>
+                <input type="checkbox" name="arabic" value="arabic" />
+                <label>Arabisch</label><br>
+            </p>
+            <p>
+                <label> Favoriete kleur van schort:</label><br>
+                <input type="color" name="favcolor" /><br>
+            </p>
+            <label> Korte biografie: </label><br>
+            <textarea name="bio" rows="10" cols="60"></textarea><br>
+            <p>
+                <label> Upload hier je laatste recept: </label><br>
+                <input type="file" name="recipe" /><br>
+            </p>
+            <p>
+                <label> Typ hier de link naar je recepten website: </label><br>
+                <input type="url" name="sitelink" /><br>
+            </p>
+            <p>
+                <input type="submit" value="Verzenden" />
+                <input type="reset" value="Velden leegmaken" />
+            </p>
+        </form>
+    </main>
+
+    <footer class="orange-border">
+        © Copyright Sietse Andringa
+    </footer>
+</body>
+
+</html>
